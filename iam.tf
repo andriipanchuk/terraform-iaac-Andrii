@@ -32,5 +32,14 @@ resource "aws_iam_group_membership" "developers_team" {
     "${aws_iam_user.lisa.name}",
   ] 
   group = "${aws_iam_group.developers.name }"
+
+}
+
+  resource "aws_iam_group_membership" "admin_team" { 
+  name = "admin-group-membership" 
+  users = [ 
+    "${aws_iam_user.ben.name }",
+     ] 
+  group = "${aws_iam_group.admin.name }"
 }
 
