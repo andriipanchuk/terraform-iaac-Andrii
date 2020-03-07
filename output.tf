@@ -3,5 +3,5 @@ output "IP" {
 }
 
 output "KEY" {
-  value = "${module.wordpress.IP}"
+  value = "${module.wordpress.KEY}"
 }
