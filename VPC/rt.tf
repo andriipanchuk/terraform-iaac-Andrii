@@ -10,7 +10,7 @@ resource "aws_route_table" "dev" {
 
 } 
 
-resource "aws_route_table_association" "dev" { 
+resource "aws_route_table_association" "dev1" { 
 
   subnet_id = "${aws_subnet.dev1.id}" 
 
