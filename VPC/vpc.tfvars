@@ -1,5 +1,5 @@
 # Provide a region for VPC
-region = "eu-west-1"
+region = "eu-west-2"
 
 # This is used for VPC CIDR BLOCK
 cidr_block = "10.0.0.0/16"
