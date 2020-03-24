@@ -1,0 +1,4 @@
+variable "bucket" {} 
+variable "region" {}
+
+
