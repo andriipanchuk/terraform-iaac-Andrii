@@ -1,4 +1,3 @@
-# Creates ASG with Lauch Config
 module "wordpress" {
   name   = "wordpress"
   source = "terraform-aws-modules/autoscaling/aws"
@@ -18,16 +17,6 @@ module "wordpress" {
   max_size                  = 48
   desired_capacity          = 3
   wait_for_capacity_timeout = 0
-tags = [
-    {
-      key                 = "Environment"
-      value               = "dev"
-      propagate_at_launch = true
-    },
-    {
-      key                 = "Project"
-      value               = "megasecret"
-      propagate_at_launch = true
-    },
-  ]
+
 }
+
