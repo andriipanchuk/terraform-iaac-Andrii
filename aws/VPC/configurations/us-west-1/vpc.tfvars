@@ -2,8 +2,8 @@
 environment                     =   "california"
 region                          =   "us-west-1"
 
-s3_bucket                       =	"terraform-class-andrii"
-s3_folder_region                =	"us-east-1"
+s3_bucket                       =	"test-andrii-backet"
+s3_folder_region                =	"us-west-1"
 
 az1                  =       "us-east-1a"
 az2                  =       "us-east-1b"
